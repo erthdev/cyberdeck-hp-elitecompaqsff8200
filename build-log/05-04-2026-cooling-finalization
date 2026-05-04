@@ -1,5 +1,7 @@
 ## Log 03 - May 4, 2026
 
+---
+
 Today was a full planning session, and honestly one of the most productive days of the build so far. No hardware touched, but almost every major system decision got locked in. The machine is still sitting in pieces, but by the end of today the entire architecture of the cyberdeck finally has a clear direction.
 
 The biggest shift was dropping the battery-powered approach entirely. I had been going back and forth on 12V versus 24V battery packs, but the more I thought about it, the more I realized I was adding complexity I did not need. Battery management, charge circuits, degradation over time, lithium safety, none of that is worth it when "portable" can just mean plugging into a wall outlet wherever I set it up. A Pico PSU with an external 12V DC brick gives me everything I need with almost none of the headaches.
